@@ -8,7 +8,7 @@
 .. image:: https://img.shields.io/coveralls/baztian/jaydebeapi/master.svg
     :target: https://coveralls.io/r/baztian/jaydebeapi
 
-.. image:: https://img.shields.io/badge/python-2.6,_2.7,_3.4-blue.svg
+.. image:: https://img.shields.io/badge/python-2.7,_3.4,_3.6-blue.svg
     :target: https://pypi.python.org/pypi/JayDeBeApi/
 
 .. image:: https://img.shields.io/badge/jython-2.7.0-blue.svg
@@ -159,6 +159,14 @@ Changelog
 =========
 
 - Next version - unreleased
+
+- 1.1.2 - 2019-09-02
+
+  - Added compatibility to JPype1 0.7 (thanks to @Iverian, @Thrameos)
+  - Dropped python 2.6 support
+  - Fix build working with newer Maven versions
+  - Accidently force-pushed to master branch. Sorry for that.
+    
 - 1.1.1 - 2017-03-21
 
   - Don't fail on dates before 1900 on Python < 3.
